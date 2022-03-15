@@ -1,0 +1,42 @@
+{
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+  "extends": ["plugin:react/recommended", "eslint:recommended", "plugin:prettier/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true,
+      "defaultParams": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "import/order": "off",
+    "block-scoped-var": 2,
+    "camelcase": 2,
+    "comma-spacing": [2, { "before": false, "after": true }],
+    "eqeqeq": [2, "allow-null"],
+    "no-alert": 2,
+    "no-const-assign": 2,
+    "no-delete-var": 2,
+    "no-dupe-args": 2,
+    "no-duplicate-case": 2,
+    "no-implicit-coercion": 1,
+    "no-unexpected-multiline": 2,
+    "indent": [2, 2, {
+      "SwitchCase": 1,
+      "flatTernaryExpressions": true
+    }],
+    "semi": [2, "never"],
+    "key-spacing": [0, { "beforeColon": false, "afterColon": true }],
+    "react/display-name": 0,
+    "react/prop-types": 0,
+    "prettier/prettier": "error",
+    "react/react-in-jsx-scope": "off"
+  }
+}
