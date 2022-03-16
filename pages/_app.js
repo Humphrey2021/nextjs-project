@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
       <MyHead />
       <Layout>
         <GolbalHeader />
-        <Content style={{ margin: '24p`x 16px 0' }}>
+        <Content>
           <Component {...pageProps} />
         </Content>
         <GolbalFooter />
