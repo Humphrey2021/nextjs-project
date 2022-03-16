@@ -1,9 +1,9 @@
-import GolbalHeader from '../components/Header'
+// import GolbalHeader from '../components/Header'
 
 export default function Home() {
   return (
     <>
-      <GolbalHeader />
+      {/* <GolbalHeader /> */}
       <div>Home Pages</div>
     </>
   )

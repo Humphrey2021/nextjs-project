@@ -1,14 +1,10 @@
+import styles from './index.module.less'
+
 export default function Header() {
   return (
     <>
       <div>Header Component</div>
-      <style jsx>{`
-        div {
-          width: 14rem;
-          height: 100px;
-          background: red;
-        }
-      `}</style>
+      <p className={styles.pp}>dasjhklfjlaksjflkas</p>
     </>
   )
 }

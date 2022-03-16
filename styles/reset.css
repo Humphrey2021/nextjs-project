@@ -30,7 +30,7 @@ td {
 body {
   background: #fff;
   color: #555;
-  font-size: 14px;
+  font-size: 16px;
   font-family: PingFang SC;
   font-style: normal;
   font-weight: normal;
@@ -80,7 +80,7 @@ input,
 textarea,
 select,
 button {
-  font: 14px Verdana, Helvetica, Arial, sans-serif;
+  font: 16px Verdana, Helvetica, Arial, sans-serif;
 }
 table {
   border-collapse: collapse;

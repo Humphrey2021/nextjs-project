@@ -56,16 +56,13 @@ npm run build # or yarn build
 
 1. 命名方式统一采用驼峰命名法
 2. 在`components`中新建组件时，当组件使用次数在两次以上(包括两次)时，在`components`中可以直接创建该组件，当组件只是在某个路由界面自己使用时，在`components`中以当前路由组件为名创建文件夹，在该文件夹内部创建对应组件
+    > 例：
+    > 创建一个多次使用的头部组件,在`components`中新建`header/index.js`文件
+    > 创建只在首页使用的`banner`组件,在`components`中新建`home/banner/index.js`文件
 
-> 例：
-> 创建一个多次使用的头部组件,在`components`中新建`header/index.js`文件
-> 创建只在首页使用的`banner`组件,在`components`中新建`home/banner/index.js`文件
+3. 样式文件在对应目录创建`xxx.module.less`去编写，尽量不要直接卸载`<style jsx></style>`中，因为`postcss`转换不了`jsx`内部`px`到`rem`
 
 ### 待完成
 
-1. eslint配置 ok
-2. rem配置
-3. axios配置
-4. redux配置
-5. utils
-6. gulp
+1. axios配置
+2. redux配置
