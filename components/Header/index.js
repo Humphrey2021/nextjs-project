@@ -1,10 +1,11 @@
-import styles from './index.module.less'
+// import styles from './index.module.less'
+import { Layout } from 'antd'
 
-export default function Header() {
+const { Header } = Layout
+export default function MyHeader() {
   return (
     <>
-      <div>Header Component</div>
-      <p className={styles.pp}>dasjhklfjlaksjflkas</p>
+      <Header className='site-layout-sub-header-background' style={{ padding: 0 }} />
     </>
   )
 }

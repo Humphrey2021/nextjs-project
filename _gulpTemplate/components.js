@@ -1,7 +1,7 @@
-export default function <%= name %> () {
-    return (
-        <>
-            <div><%= name %> Component</div>
-        </>
-    )
+export default function <%= name %>() {
+  return (
+    <>
+      <div><%= name %> Component</div>
+    </>
+  )
 }
